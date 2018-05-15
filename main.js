@@ -1,5 +1,5 @@
-var width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)-200,
-    height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)-400,
+var width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
+    height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0),
     radius = Math.min(width, height) / 2;
 
 		var x = d3.scale.linear()
