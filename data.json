@@ -2,49 +2,201 @@
     "name": "Static Analysis of Android apps: A systematic literature review",
     "children": [
         {
-            "name": "Data Leaks",
+            "name": "JIMPLE",
             "children": [
                 {
-                    "name": "JIMPLE",
+                    "name": "Data Leaks",
                     "size": 18
                 },
                 {
-                    "name": "SMALI",
-                    "size": 8
-                },
-                {
-                    "name": "JAVA_CLASS",
+                    "name": "Permission Misuse",
                     "size": 6
                 },
                 {
-                    "name": "DEX_ASSEMBLER",
-                    "size": 5
+                    "name": "Vulnerabilities",
+                    "size": 6
                 },
                 {
-                    "name": "WALA_IR",
-                    "size": 4
+                    "name": "Energy Consumption",
+                    "size": 2
                 },
                 {
-                    "name": "OTHER",
+                    "name": "Test Case Generation",
                     "size": 3
                 }
             ]
         },
         {
-            "name":"Cryptography",
-            "children":[
-             {
-                 "name":"DEX_ASSEMBLER",
-                 "size":1
-             },
-             {
-                 "name":"SMALI",
-                 "size":1
-             },
-             {
-                 "name":"WALA_IR",
-                 "size":1
-             }
+            "name": "WALA_IR",
+            "children": [
+                {
+                    "name": "Data Leaks",
+                    "size": 4
+                },
+                {
+                    "name": "Permission Misuse",
+                    "size": 1
+                },
+                {
+                    "name": "Vulnerabilities",
+                    "size": 4
+                },
+                {
+                    "name": "Clone Detection",
+                    "size": 2
+                },
+                {
+                    "name": "Test Case Generation",
+                    "size": 1
+                }
+            ]
+        },
+        {
+            "name": "DEX_ASSEMBLER",
+            "children": [
+                {
+                    "name": "Data Leaks",
+                    "size":5
+                },
+                {
+                    "name":"Cryptography",
+                    "size":1
+                },
+                {
+                    "name":"Permission Misuse",
+                    "size":2
+                },
+                {
+                    "name":"Vulnerabilities",
+                    "size":5
+                },
+                {
+                    "name":"Code Verification",
+                    "size":0
+                },
+                {
+                    "name":"Energy Consumption",
+                    "size":0
+                },
+                {
+                    "name":"Clone Detection",
+                    "size":2
+                },
+                {
+                    "name":"Test Case Generation",
+                    "size":0
+                }
+            ]
+        },
+        {
+            "name": "SMALI",
+            "children": [
+                {
+                    "name": "Data Leaks",
+                    "size":8
+                },
+                {
+                    "name":"Cryptography",
+                    "size":1
+                },
+                {
+                    "name":"Permission Misuse",
+                    "size":4
+                },
+                {
+                    "name":"Vulnerabilities",
+                    "size":15
+                },
+                {
+                    "name":"Code Verification",
+                    "size":0
+                },
+                {
+                    "name":"Energy Consumption",
+                    "size":0
+                },
+                {
+                    "name":"Clone Detection",
+                    "size":3
+                },
+                {
+                    "name":"Test Case Generation",
+                    "size":1
+                }
+            ]
+        },
+        {
+            "name": "JAVA_CLASS",
+            "children": [
+                {
+                    "name": "Data Leaks",
+                    "size":6
+                },
+                {
+                    "name":"Cryptography",
+                    "size":0
+                },
+                {
+                    "name":"Permission Misuse",
+                    "size":1
+                },
+                {
+                    "name":"Vulnerabilities",
+                    "size":6
+                },
+                {
+                    "name":"Code Verification",
+                    "size":2
+                },
+                {
+                    "name":"Energy Consumption",
+                    "size":6
+                },
+                {
+                    "name":"Clone Detection",
+                    "size":0
+                },
+                {
+                    "name":"Test Case Generation",
+                    "size":0
+                }
+            ]
+        },
+        {
+            "name": "OTHER",
+            "children": [
+                {
+                    "name": "Data Leaks",
+                    "size":3
+                },
+                {
+                    "name":"Cryptography",
+                    "size":1
+                },
+                {
+                    "name":"Permission Misuse",
+                    "size":1
+                },
+                {
+                    "name":"Vulnerabilities",
+                    "size":2
+                },
+                {
+                    "name":"Code Verification",
+                    "size":0
+                },
+                {
+                    "name":"Energy Consumption",
+                    "size":1
+                },
+                {
+                    "name":"Clone Detection",
+                    "size":0
+                },
+                {
+                    "name":"Test Case Generation",
+                    "size":1
+                }
             ]
         }
     ]
