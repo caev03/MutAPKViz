@@ -1,4 +1,4 @@
-var width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)-175,
+var width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)-200,
     height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)-350,
     radius = Math.min(width, height) / 2;
 
@@ -14,7 +14,7 @@ var svg = d3.select("#mySVG")
     .attr("width", width)
     .attr("height", function(){return height+10})
   .append("g")
-    .attr("transform", "translate(" + width / 2 + "," + ((height / 2)+5) + ")");
+    .attr("transform", "translate(" + width + "," + ((height / 2)+5) + ")");
 
 var partition = d3.layout.partition()
     .sort(null)
