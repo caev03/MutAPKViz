@@ -8,7 +8,19 @@ var width = Math.max(document.documentElement.clientWidth, window.innerWidth || 
 var y = d3.scale.sqrt()
     .range([0, radius]);
 
-var color = d3.scale.category20c();
+var color = d3.scale.category10();
+
+var coolor = d3.scale.category20();
+// {
+//   "Data Leaks":"#FFFFFF",
+//   "Cryptography":"",
+//   "Permission Misuse":"",
+//   "Vulnerabilities":"",
+//   "Code Verification":"",
+//   "Energy Consumption":"",
+//   "Clone Detection":"",
+//   "Test Case Generation":""
+// }
 
 var svg = d3.select("#mySVG")
     .attr("width", width)
@@ -36,7 +48,9 @@ d3.json("data.json", function(error, root) {
       .data(partition.nodes)
     .enter().append("path")
       .attr("d", arc)
-      .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+      .style("fill", function(d) { return color(d.name)})//(d.children)?color(d.name):coolor(d.name) })
+      .style('stroke', 'white')
+      .style('stroke-width', 3)
       .on("click", click)
       .on("mouseover", hover)
       .each(stash);
