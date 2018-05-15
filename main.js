@@ -10,17 +10,24 @@ var y = d3.scale.sqrt()
 
 var color = d3.scale.category10();
 
-var coolor = d3.scale.category20();
-// {
-//   "Data Leaks":"#FFFFFF",
-//   "Cryptography":"",
-//   "Permission Misuse":"",
-//   "Vulnerabilities":"",
-//   "Code Verification":"",
-//   "Energy Consumption":"",
-//   "Clone Detection":"",
-//   "Test Case Generation":""
-// }
+var coolor = //d3.scale.category20();
+{
+  "Static Analysis of Android apps: A systematic literature review":"#e0e0e0",
+  "Data Leaks":"#3366cc",
+  "Cryptography":"#dc3912",
+  "Permission Misuse":"#ff9900",
+  "Vulnerabilities":"#f9e784",
+  "Code Verification":"#990099",
+  "Energy Consumption":"#0099c6",
+  "Clone Detection":"#dd4477",
+  "Test Case Generation":"#66aa00",
+  "JIMPLE":"#de6449",
+  "WALA_IR":"#316395",
+  "DEX_ASSEMBLER":"#994499",
+  "SMALI":"#22aa99",
+  "JAVA_CLASS":"#aaaa11",
+  "OTHER":"#6633cc"
+}
 
 var svg = d3.select("#mySVG")
     .attr("width", width)
@@ -48,7 +55,7 @@ d3.json("data.json", function(error, root) {
       .data(partition.nodes)
     .enter().append("path")
       .attr("d", arc)
-      .style("fill", function(d) { return color(d.name)})//(d.children)?color(d.name):coolor(d.name) })
+      .style("fill", function(d) { return coolor[d.name]})//(d.children)?color(d.name):coolor(d.name) })
       .style('stroke', 'white')
       .style('stroke-width', 3)
       .on("click", click)
