@@ -1,0 +1,2415 @@
+{
+    "name":"Android Vulnerabilities",
+    "children":[
+       {
+          "name":"CWE-20: Improper Input Validation",
+          "children":[
+             {
+                "name":"Unclear",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":12
+                   }
+                ]
+             },
+             {
+                "name":"Improper Input Validation",
+                "children":[
+                   {
+                      "name":"Improper Input Validation",
+                      "size":3
+                   },
+                   {
+                      "name":"Improper validation of function arguments",
+                      "size":4
+                   },
+                   {
+                      "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                      "size":2
+                   },
+                   {
+                      "name":"Improper Validation of Function Arguments",
+                      "size":1
+                   },
+                   {
+                      "name":"Technology-Specific Input Validation Problems",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper Restriction of Operations within the Bounds of a 699 227 Memory Buffer",
+                      "size":1
+                   },
+                   {
+                      "name":"Integer Overflow or Wraparound",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Pointer Issues",
+                "children":[
+                   {
+                      "name":"NULL Pointer Dereference",
+                      "size":1
+                   },
+                   {
+                      "name":"Pointer Issues",
+                      "size":1
+                   },
+                   {
+                      "name":"Use of Out-of-range Pointer Offset",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Control of Resource Identifiers",
+                "children":[
+                   {
+                      "name":"Use of Multiple Resources with Duplicate Identifier",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Cross-Site Request Forgery",
+                "children":[
+                   {
+                      "name":"Cross-site Scripting",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Restriction of Operations within the Bounds of a 699 227 Memory Buffer",
+                "children":[
+                   {
+                      "name":"Buffer Overflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Allocation of Resources Without Limits or Throttling",
+                "children":[
+                   {
+                      "name":"Uncontrolled Memory Allocation",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Access Control",
+                "children":[
+                   {
+                      "name":"Exposed IOCTL with Insufficient Access Control",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Initialization and Cleanup Errors",
+                "children":[
+                   {
+                      "name":"Missing Initialization of a Variable",
+                      "size":1
+                   },
+                   {
+                      "name":"Missing Initialization of Resource",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Behavioral Problems",
+                "children":[
+                   {
+                      "name":"Business Logic Errors",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Initialization",
+                "children":[
+                   {
+                      "name":"Use of Uninitialized Variable",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Business Logic Errors",
+                "children":[
+                   {
+                      "name":"Improper Control of Interaction Frequency",
+                      "size":1
+                   },
+                   {
+                      "name":"Business Logic Errors",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Check or Handling of Exceptional Conditions",
+                "children":[
+                   {
+                      "name":"Improper Check or Handling of Exceptional Conditions",
+                      "size":3
+                   }
+                ]
+             },
+             {
+                "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                "children":[
+                   {
+                      "name":"Incorrect Calculation of Buffer Size",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Data Handling",
+                "children":[
+                   {
+                      "name":"Type Errors",
+                      "size":1
+                   },
+                   {
+                      "name":"Information Management Errors",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Fulfillment of API Contract",
+                "children":[
+                   {
+                      "name":"Improper Fulfillment of API Contract",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Numeric Errors",
+                "children":[
+                   {
+                      "name":"Integer Overflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Permissions, Privileges, and Access Controls",
+                "children":[
+                   {
+                      "name":"Privilege / Sandbox Issues",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Insufficient Verification of Data Authenticity",
+                "children":[
+                   {
+                      "name":"Improper Verification of Cryptographic Signature",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Out-of-bounds write",
+                "children":[
+                   {
+                      "name":"Use of Out-of-range Pointer Offset",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Error Handling",
+                "children":[
+                   {
+                      "name":"Unchecked Error Condition",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improver Input Validation",
+                "children":[
+                   {
+                      "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Improper Check for Unusual or Exceptional Conditions",
+                "children":[
+                   {
+                      "name":"Unchecked Return Value",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Representation Errors",
+                "children":[
+                   {
+                      "name":"Improper Handling of Syntactically Invalid Structure",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Incomplete Cleanup",
+                "children":[
+                   {
+                      "name":"Sensitive Information Uncleared Before Release",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"NULL Pointer Dereference",
+                "children":[
+                   {
+                      "name":"Unchecked Return Value",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-310: Cryptographic Issues",
+          "children":[
+             {
+                "name":"Cryptographic Issues",
+                "children":[
+                   {
+                      "name":"key management errors",
+                      "size":1
+                   },
+                   {
+                      "name":"Inadequate Encryption Strength",
+                      "size":2
+                   },
+                   {
+                      "name":"Missing Required Cryptographic Step",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Missing Encryption of Sensitive Data",
+                "children":[
+                   {
+                      "name":"Cleartext Transmission of Sensitive Information",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Unclear",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-399: Resource Management Errors",
+          "children":[
+             {
+                "name":"Improper Input Validation",
+                "children":[
+                   {
+                      "name":"Improper validation of function arguments",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Excessive Iteration",
+                "children":[
+                   {
+                      "name":"Loop with Unreachable Exit Condition ('Infinite Loop')",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Unclear",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Resource Management Errors",
+                "children":[
+                   {
+                      "name":"Improper Resource Shutdown or Release",
+                      "size":1
+                   },
+                   {
+                      "name":"Resource Management Errors",
+                      "size":1
+                   },
+                   {
+                      "name":"Uncontrolled Resource Consumption",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Uncontrolled Resource Consumption ('Resource Exhaustion')",
+                "children":[
+                   {
+                      "name":"Allocation of Resources Without Limits or Throttling",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Check or Handling of Exceptional Conditions",
+                "children":[
+                   {
+                      "name":"Improper Check or Handling of Exceptional Conditions",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-200: Information Exposure",
+          "children":[
+             {
+                "name":"Information Exposure",
+                "children":[
+                   {
+                      "name":"Information Exposure Through Sent Data",
+                      "size":3
+                   },
+                   {
+                      "name":"Information Exposure Through Debug Information",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Permissions, Privileges, and Access Controls",
+                "children":[
+                   {
+                      "name":"Permission Issues",
+                      "size":4
+                   },
+                   {
+                      "name":"Improper access Control",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Initialization and Cleanup Errors",
+                "children":[
+                   {
+                      "name":"Improper Initialization",
+                      "size":3
+                   },
+                   {
+                      "name":"Missing Initialization of a Variable",
+                      "size":8
+                   },
+                   {
+                      "name":"Incomplete Cleanup",
+                      "size":2
+                   },
+                   {
+                      "name":"Missing Initialization of Resource",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Improper Check or Handling of Exceptional Conditions",
+                "children":[
+                   {
+                      "name":"Improper Check or Handling of Exceptional Conditions",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper Handling of Exceptional Conditions",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Input Validation",
+                "children":[
+                   {
+                      "name":"Improper Null Termination",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper validation of function arguments",
+                      "size":2
+                   },
+                   {
+                      "name":"Improper Input Validation",
+                      "size":1
+                   },
+                   {
+                      "name":"Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper validation of Function Arguments",
+                      "size":2
+                   },
+                   {
+                      "name":"Improper Validation of function arguments",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper Validation of Function Arguments",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Pointer Issues",
+                "children":[
+                   {
+                      "name":"NULL Pointer Dereference",
+                      "size":1
+                   },
+                   {
+                      "name":"Unclear",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Weaknesses that Affect Memory",
+                "children":[
+                   {
+                      "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                      "size":1
+                   },
+                   {
+                      "name":"Weaknesses that Affect Memory",
+                      "size":2
+                   },
+                   {
+                      "name":"Buffer Overflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Cross-Site Request Forgery",
+                "children":[
+                   {
+                      "name":"Cross-site Scripting",
+                      "size":3
+                   }
+                ]
+             },
+             {
+                "name":"Unclear",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":23
+                   },
+                   {
+                      "name":"Heap-based Buffer Overflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Access Control",
+                "children":[
+                   {
+                      "name":"Improper Privilege Management",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Authorization",
+                "children":[
+                   {
+                      "name":"Missing Authorization",
+                      "size":5
+                   }
+                ]
+             },
+             {
+                "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                "children":[
+                   {
+                      "name":"Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')",
+                      "size":1
+                   },
+                   {
+                      "name":"Out-of-bounds Read",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Cryptographic Issues",
+                "children":[
+                   {
+                      "name":"Inadequate Encryption Strength",
+                      "size":1
+                   },
+                   {
+                      "name":"Use of a Broken or Risky Cryptographic Algorithm",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Numeric Errors",
+                "children":[
+                   {
+                      "name":"Integer Overflow",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Insufficient Control Flow Management",
+                "children":[
+                   {
+                      "name":"Race Condition",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Security Features",
+                "children":[
+                   {
+                      "name":"User Interface Security Issues",
+                      "size":1
+                   },
+                   {
+                      "name":"Security Features",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Incorrect Calculation",
+                "children":[
+                   {
+                      "name":"Integer Overflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Weaknesses that Affect Files or Directories",
+                "children":[
+                   {
+                      "name":"Unrestricted Upload of File with Dangerous Type",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Incorrect Resource Transfer Between Spheres",
+                "children":[
+                   {
+                      "name":"Unrestricted Upload of File with Dangerous Type",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Behavioral Problems",
+                "children":[
+                   {
+                      "name":"Business Logic Errors",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Representation Errors",
+                "children":[
+                   {
+                      "name":"Improper Handling of Syntactically Invalid Structure",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Insufficient Encapsulation",
+                "children":[
+                   {
+                      "name":"Exposed Dangerous Method or Function",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Data Handling",
+                "children":[
+                   {
+                      "name":"Type Errors",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer",
+          "children":[
+             {
+                "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                "children":[
+                   {
+                      "name":"Out-of-bounds Read",
+                      "size":2
+                   },
+                   {
+                      "name":"Incorrect Calculation of Buffer Size",
+                      "size":2
+                   },
+                   {
+                      "name":"Buffer Overflow",
+                      "size":3
+                   },
+                   {
+                      "name":"Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')",
+                      "size":2
+                   },
+                   {
+                      "name":"Buffer Over-read",
+                      "size":2
+                   },
+                   {
+                      "name":"Off-by-one Error",
+                      "size":2
+                   },
+                   {
+                      "name":"Unclear",
+                      "size":1
+                   },
+                   {
+                      "name":"Out-of-bounds Write",
+                      "size":1
+                   },
+                   {
+                      "name":"Buffer Copy without Checking Size of Input ('Classic 699 235 Buffer Overflow')",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Numeric Errors",
+                "children":[
+                   {
+                      "name":"Integer Overflow",
+                      "size":1
+                   },
+                   {
+                      "name":"Integer Overflow to Buffer Overflow",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Out-of-bounds Write",
+                "children":[
+                   {
+                      "name":"Heap-based Buffer Overflow",
+                      "size":5
+                   },
+                   {
+                      "name":"Stack-based Buffer Overflow",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Improper Check or Handling of Exceptional Conditions",
+                "children":[
+                   {
+                      "name":"Improper Check or Handling of Exceptional Conditions",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Weaknesses that Affect Memory",
+                "children":[
+                   {
+                      "name":"Stack-based Buffer Overflow",
+                      "size":2
+                   },
+                   {
+                      "name":"Buffer Overflow",
+                      "size":6
+                   },
+                   {
+                      "name":"Heap-based Buffer Overflow",
+                      "size":4
+                   },
+                   {
+                      "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                      "size":9
+                   }
+                ]
+             },
+             {
+                "name":"Cross-Site Request Forgery",
+                "children":[
+                   {
+                      "name":"Cross-site Scripting",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Unclear",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":19
+                   },
+                   {
+                      "name":"Heap-based Buffer Overflow",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Improper Input Validation",
+                "children":[
+                   {
+                      "name":"Technology-Specific Input Validation Problems",
+                      "size":7
+                   },
+                   {
+                      "name":"Buffer Overflow",
+                      "size":2
+                   },
+                   {
+                      "name":"Improper validation of function arguments",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                      "size":2
+                   },
+                   {
+                      "name":"Integer Overflow or Wraparound",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper Null Termination",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')",
+                "children":[
+                   {
+                      "name":"CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Uncontrolled Resource Consumption ('Resource Exhaustion')",
+                "children":[
+                   {
+                      "name":"Allocation of Resources Without Limits or Throttling",
+                      "size":1
+                   },
+                   {
+                      "name":"Logging of Excessive Data",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Initialization and Cleanup Errors",
+                "children":[
+                   {
+                      "name":"Missing Initialization of a Variable",
+                      "size":2
+                   },
+                   {
+                      "name":"Missing Initialization of Resource",
+                      "size":1
+                   },
+                   {
+                      "name":"Incomplete Cleanup",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Resource Management Errors",
+                "children":[
+                   {
+                      "name":"Improper Resource Shutdown or Release",
+                      "size":1
+                   },
+                   {
+                      "name":"Uncontrolled Resource Consumption ('Resource Exhaustion')",
+                      "size":5
+                   },
+                   {
+                      "name":"Resource Management Errors",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Out-of-bounds Read",
+                "children":[
+                   {
+                      "name":"Buffer Over-read",
+                      "size":3
+                   }
+                ]
+             },
+             {
+                "name":"Incorrect Calculation",
+                "children":[
+                   {
+                      "name":"Incorrect Calculation of Buffer Size",
+                      "size":2
+                   },
+                   {
+                      "name":"Integer Overflow",
+                      "size":1
+                   },
+                   {
+                      "name":"Integer Underflow",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Access of Memory Location After End of Buffer",
+                "children":[
+                   {
+                      "name":"Stack-based Buffer Overflow",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Permissions, Privileges, and Access Controls",
+                "children":[
+                   {
+                      "name":"Privilege / Sandbox Issues",
+                      "size":3
+                   }
+                ]
+             },
+             {
+                "name":"Business Logic Errors",
+                "children":[
+                   {
+                      "name":"Incorrect Behavior Order",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper Check for Unusual or Exceptional Conditions",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Restriction of Operations within the Bounds of a",
+                "children":[
+                   {
+                      "name":"Out-of-bounds Read",
+                      "size":1
+                   },
+                   {
+                      "name":"Buffer Access with Incorrect Length Value",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Stack-based Buffer Overflow",
+                "children":[
+                   {
+                      "name":"Buffer Underwrite ('Buffer Underflow')",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Exposure of Resource to Wrong Sphere",
+                "children":[
+                   {
+                      "name":"Returning a Mutable Object to an Untrusted Caller",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Buffer Underwrite ('Buffer Underflow')",
+                "children":[
+                   {
+                      "name":"Out-of-bounds Write",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Pointer Issues",
+                "children":[
+                   {
+                      "name":"Access of Uninitialized Pointer",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Allocation of Resources Without Limits or Throttling",
+                "children":[
+                   {
+                      "name":"Uncontrolled Memory Allocation",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Authorization",
+                "children":[
+                   {
+                      "name":"Incorrect Permission Assignment for Critical Resource",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Data handling",
+                "children":[
+                   {
+                      "name":"Improper Input Validation",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"N/A",
+          "children":[
+             {
+                "name":"Improper Fulfillment of API Contract",
+                "children":[
+                   {
+                      "name":"Improper Fulfillment of API Contract",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Pointer Issues",
+                "children":[
+                   {
+                      "name":"Untrusted Pointer Dereference",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Resource Management Errors",
+                "children":[
+                   {
+                      "name":"Use After Free",
+                      "size":10
+                   },
+                   {
+                      "name":"Double Free",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Data Handling",
+                "children":[
+                   {
+                      "name":"Type Errors",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Unclear",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":16
+                   }
+                ]
+             },
+             {
+                "name":" Improper Access of Indexable Resource ('Range Error')",
+                "children":[
+                   {
+                      "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Allocation of Resources Without Limits or Throttling",
+                "children":[
+                   {
+                      "name":"Uncontrolled Memory Allocation",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Out-of-bounds Write",
+                "children":[
+                   {
+                      "name":"Heap-based Buffer Overflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Initialization and Cleanup Errors",
+                "children":[
+                   {
+                      "name":"Missing Initialization of a Variable",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Incorrect Calculation",
+                "children":[
+                   {
+                      "name":"Integer Overflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Check or Handling of Exceptional Conditions",
+                "children":[
+                   {
+                      "name":"Improper Check or Handling of Exceptional Conditions",
+                      "size":3
+                   }
+                ]
+             },
+             {
+                "name":"business logic errors",
+                "children":[
+                   {
+                      "name":"business logic errors",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-189: Numeric Errors",
+          "children":[
+             {
+                "name":"Improper Input Validation",
+                "children":[
+                   {
+                      "name":"Integer Overflow to Buffer Overflow",
+                      "size":2
+                   },
+                   {
+                      "name":"Integer Overflow",
+                      "size":4
+                   },
+                   {
+                      "name":"Integer Overflow or Wraparound",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Numeric Errors",
+                "children":[
+                   {
+                      "name":"Integer Overflow",
+                      "size":10
+                   },
+                   {
+                      "name":"Numeric Errors",
+                      "size":1
+                   },
+                   {
+                      "name":"Signed to Unsigned Conversion Error",
+                      "size":1
+                   },
+                   {
+                      "name":"Integer Coercion Error",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Data Handling",
+                "children":[
+                   {
+                      "name":"Type Errors",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Check or Handling of Exceptional Conditions",
+                "children":[
+                   {
+                      "name":"Improper Check for Unusual or Exceptional Conditions",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Incorrect Calculation",
+                "children":[
+                   {
+                      "name":"Integer Underflow",
+                      "size":2
+                   },
+                   {
+                      "name":"Off-by-one Error",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Weaknesses that Affect Memory",
+                "children":[
+                   {
+                      "name":"Heap-based Buffer Overflow",
+                      "size":2
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-264: Permissions, Privileges, and Access Controls",
+          "children":[
+             {
+                "name":"Permissions, Privileges, and Access Controls",
+                "children":[
+                   {
+                      "name":"Improper Access Control",
+                      "size":3
+                   },
+                   {
+                      "name":"Privilege / Sandbox Issues",
+                      "size":21
+                   },
+                   {
+                      "name":"Permission Issues",
+                      "size":7
+                   },
+                   {
+                      "name":"cookie forcing",
+                      "size":1
+                   },
+                   {
+                      "name":"Privilege / Sandbox issues",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper access Control",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Deserialization of Untrusted Data",
+                "children":[
+                   {
+                      "name":"Deserialization of Untrusted Data",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Check or Handling of Exceptional Conditions",
+                "children":[
+                   {
+                      "name":"Improper Check or Handling of Exceptional Conditions",
+                      "size":6
+                   },
+                   {
+                      "name":"Improper Check for Unusual or Exceptional Conditions",
+                      "size":2
+                   },
+                   {
+                      "name":"Improper Validation of Array Index",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                "children":[
+                   {
+                      "name":"Incorrect Calculation of Buffer Size",
+                      "size":3
+                   },
+                   {
+                      "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                      "size":1
+                   },
+                   {
+                      "name":"Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')",
+                      "size":4
+                   },
+                   {
+                      "name":"Buffer Overflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Input Validation",
+                "children":[
+                   {
+                      "name":"Improper Input Validation",
+                      "size":2
+                   },
+                   {
+                      "name":"Improper validation of function arguments",
+                      "size":7
+                   },
+                   {
+                      "name":"Integer Overflow",
+                      "size":2
+                   },
+                   {
+                      "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                      "size":2
+                   },
+                   {
+                      "name":"Improper Validation of Function Arguments",
+                      "size":2
+                   },
+                   {
+                      "name":"Command Injection",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper Validation of function arguments",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper Validation of Array Index",
+                      "size":1
+                   },
+                   {
+                      "name":"Integer Overflow or Wraparound",
+                      "size":1
+                   },
+                   {
+                      "name":"Uncontrolled Memory Allocation",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper validation of Function Arguments",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Data Handling",
+                "children":[
+                   {
+                      "name":"String Errors",
+                      "size":1
+                   },
+                   {
+                      "name":"Type Errors",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Pointer Issues",
+                "children":[
+                   {
+                      "name":"Pointer Issues",
+                      "size":1
+                   },
+                   {
+                      "name":"Use of Out-of-range Pointer Offset",
+                      "size":1
+                   },
+                   {
+                      "name":"Release of Invalid Pointer or Reference",
+                      "size":1
+                   },
+                   {
+                      "name":"NULL Pointer Dereference",
+                      "size":2
+                   },
+                   {
+                      "name":"Access of Uninitialized Pointer",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Numeric Errors",
+                "children":[
+                   {
+                      "name":"Integer Overflow",
+                      "size":5
+                   }
+                ]
+             },
+             {
+                "name":"Incorrect Calculation",
+                "children":[
+                   {
+                      "name":"Integer Underflow",
+                      "size":1
+                   },
+                   {
+                      "name":"Off-by-one Error",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Unclear",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":70
+                   }
+                ]
+             },
+             {
+                "name":"Weaknesses that Affect Memory",
+                "children":[
+                   {
+                      "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                      "size":1
+                   },
+                   {
+                      "name":"Weaknesses that Affect Memory",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"String Errors",
+                "children":[
+                   {
+                      "name":"Use of Externally-Controlled Format String",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Resource Management Errors",
+                "children":[
+                   {
+                      "name":"Uncontrolled Resource Consumption",
+                      "size":3
+                   },
+                   {
+                      "name":"Use After Free",
+                      "size":4
+                   },
+                   {
+                      "name":"Resource Locking Problems",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper Resource Shutdown or Release",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Permission Issues",
+                "children":[
+                   {
+                      "name":"Incorrect Default Permissions",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Out-of-bounds write",
+                "children":[
+                   {
+                      "name":"Use of Out-of-range Pointer Offset",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Access Control",
+                "children":[
+                   {
+                      "name":"Exposed IOCTL with Insufficient Access Control",
+                      "size":3
+                   },
+                   {
+                      "name":"Improper Authorization",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper Ownership Management",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Authorization",
+                "children":[
+                   {
+                      "name":"Missing Authorization",
+                      "size":6
+                   },
+                   {
+                      "name":"Incorrect Permission Assignment for Critical Resource",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Behavioral Problems",
+                "children":[
+                   {
+                      "name":"Business Logic Errors",
+                      "size":4
+                   }
+                ]
+             },
+             {
+                "name":"Information Exposure Through an Error Message",
+                "children":[
+                   {
+                      "name":"Information Exposure Through Self-generated Error Message",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Incomplete Cleanup",
+                "children":[
+                   {
+                      "name":"Sensitive Information Uncleared Before Release",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Concurrent Execution using Shared Resource with Improper 699 629 Synchronization ('Race Condition')",
+                "children":[
+                   {
+                      "name":"Race Condition within a Thread",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Improper Authentication",
+                "children":[
+                   {
+                      "name":"Session Fixation",
+                      "size":1
+                   },
+                   {
+                      "name":"Missing Critical Step in Authentication",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Business Logic Errors",
+                "children":[
+                   {
+                      "name":"Incorrect Behavior Order",
+                      "size":3
+                   },
+                   {
+                      "name":"Unclear",
+                      "size":3
+                   }
+                ]
+             },
+             {
+                "name":"Improper Handling of Parameters",
+                "children":[
+                   {
+                      "name":"Failure to Handle Missing Parameter",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Out-of-bounds Write",
+                "children":[
+                   {
+                      "name":"Stack-based Buffer Overflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Insufficient Control Flow Management",
+                "children":[
+                   {
+                      "name":"Code Injection",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Initialization and Cleanup Errors",
+                "children":[
+                   {
+                      "name":"Incomplete Cleanup",
+                      "size":1
+                   },
+                   {
+                      "name":"Missing Initialization of a Variable",
+                      "size":2
+                   },
+                   {
+                      "name":"Missing Initialization of Resource",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Fulfillment of API Contract",
+                "children":[
+                   {
+                      "name":"Improper Fulfillment of API Contract",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Security Features",
+                "children":[
+                   {
+                      "name":"User Interface Security Issues",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Credentials Management",
+                "children":[
+                   {
+                      "name":"Weak Password Recovery Mechanism for Forgotten Password",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Fulfillment of API Contract ('API Abuse')",
+                "children":[
+                   {
+                      "name":"Incorrect Use of Privileged APIs",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Access of Memory Location After End of Buffer",
+                "children":[
+                   {
+                      "name":"Buffer Over-read",
+                      "size":1
+                   },
+                   {
+                      "name":"Stack-based Buffer Overflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Certificate Validation",
+                "children":[
+                   {
+                      "name":"Improper Following of a Certificate's Chain of Trust",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Expired Pointer Dereference",
+                "children":[
+                   {
+                      "name":"Use After Free",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Buffer Access with Incorrect Length Value",
+                "children":[
+                   {
+                      "name":"Buffer Access Using Size of Source Buffer",
+                      "size":3
+                   }
+                ]
+             },
+             {
+                "name":"Improper Control of a Resource Through its Lifetime",
+                "children":[
+                   {
+                      "name":"Exposure of Resource to Wrong Sphere",
+                      "size":3
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-254: Security Features",
+          "children":[
+             {
+                "name":"Security Features",
+                "children":[
+                   {
+                      "name":"Improper Authorization",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Pointer Issues",
+                "children":[
+                   {
+                      "name":"Assignment of a Fixed Address to a Pointer",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Unclear",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Check or Handling of Exceptional Conditions",
+                "children":[
+                   {
+                      "name":"Uncaught Exception",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Use of Insufficiently Random Values",
+                "children":[
+                   {
+                      "name":"Predictability Problems",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Injection Flaws",
+                "children":[
+                   {
+                      "name":"Command Injection",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"mproper Access of Indexable Resource ('Range Error').",
+                "children":[
+                   {
+                      "name":"mproper Restriction of Operations within the Bounds of a 699 227 Memory Buffer 1000",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Initialization",
+                "children":[
+                   {
+                      "name":"Missing Initialization of Resource",
+                      "size":2
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-284: Improper Access Control",
+          "children":[
+             {
+                "name":"Improper Input Validation",
+                "children":[
+                   {
+                      "name":"Improper validation of function arguments",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Permissions, Privileges, and Access Controls",
+                "children":[
+                   {
+                      "name":"Improper Access Control",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper access Control",
+                      "size":1
+                   },
+                   {
+                      "name":"Permission Issues",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"String Errors",
+                "children":[
+                   {
+                      "name":"String Errors",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Business Logic Errors",
+                "children":[
+                   {
+                      "name":"Improper Check for Unusual or Exceptional Conditions",
+                      "size":1
+                   },
+                   {
+                      "name":"Business Logic Errors",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Pointer Issues",
+                "children":[
+                   {
+                      "name":"NULL Pointer Dereference",
+                      "size":1
+                   },
+                   {
+                      "name":"The program accesses or uses a pointer that has not been initialized.",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Unclear",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Security Features",
+                "children":[
+                   {
+                      "name":"Security Features",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Source Code",
+                "children":[
+                   {
+                      "name":"User Interface Errors",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Out-of-bounds Write",
+                "children":[
+                   {
+                      "name":"Stack-based Buffer Overflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Indicator of Poor Code Quality",
+                "children":[
+                   {
+                      "name":"Use of Potentially Dangerous Function",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Information Exposure Through an Error Message",
+                "children":[
+                   {
+                      "name":"Information Exposure Through Self-generated Error Message",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Authorization",
+                "children":[
+                   {
+                      "name":"Missing Authorization",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Restriction of Communication Channel to Intended 699 1355 Endpoints",
+                "children":[
+                   {
+                      "name":"Improper Export of Android Application Components",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Check or Handling of Exceptional Conditions",
+                "children":[
+                   {
+                      "name":"Uncaught Exception",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Incorrect Calculation",
+                "children":[
+                   {
+                      "name":"Off-by-one Error",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-19: Data Handling",
+          "children":[
+             {
+                "name":"Data Handling",
+                "children":[
+                   {
+                      "name":"Information Management Errors",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Pointer Issues",
+                "children":[
+                   {
+                      "name":"Pointer Issues",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Resource Management Errors",
+                "children":[
+                   {
+                      "name":"Improper Resource Shutdown or Release",
+                      "size":1
+                   },
+                   {
+                      "name":"Use After Free",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Neutralization of Delimiters",
+                "children":[
+                   {
+                      "name":"Improper Neutralization of Line Delimiters",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Incorrect Calculation",
+                "children":[
+                   {
+                      "name":"Integer Overflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Data handling",
+                "children":[
+                   {
+                      "name":"Improper Input Validation",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Business Logic Errors",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-190: Integer Overflow or Wraparound",
+          "children":[
+             {
+                "name":"Incorrect Calculation",
+                "children":[
+                   {
+                      "name":"Integer Underflow",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Numeric Errors",
+                "children":[
+                   {
+                      "name":"Integer Overflow",
+                      "size":3
+                   }
+                ]
+             },
+             {
+                "name":"Improper Input Validation",
+                "children":[
+                   {
+                      "name":"Integer Overflow",
+                      "size":1
+                   },
+                   {
+                      "name":"Unchecked Input for Loop Condition",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-191: Integer Underflow (Wrap or Wraparound)",
+          "children":[
+             {
+                "name":"Numeric Errors",
+                "children":[
+                   {
+                      "name":"Integer Overflow",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-17: Code",
+          "children":[
+             {
+                "name":"Cross-Site Request Forgery",
+                "children":[
+                   {
+                      "name":"Cross-site Scripting",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Handling of Syntactically Invalid Structure",
+                "children":[
+                   {
+                      "name":"Improper Check or Handling of Exceptional Conditions",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Business Logic Errors",
+                "children":[
+                   {
+                      "name":"Incorrect Behavior Order",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-352: Cross-Site Request Forgery (CSRF)",
+          "children":[
+             {
+                "name":"Cross-Site Request Forgery",
+                "children":[
+                   {
+                      "name":"Cross-site Scripting",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-345: Insufficient Verification of Data Authenticity",
+          "children":[
+             {
+                "name":"Improper Certificate Validation",
+                "children":[
+                   {
+                      "name":"Improper Following of a Certificate's Chain of Trust",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-172: Encoding Error",
+          "children":[
+             {
+                "name":"Unclear",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Business Logic Errors",
+                "children":[
+                   {
+                      "name":"Incorrect Behavior Order",
+                      "size":1
+                   },
+                   {
+                      "name":"Improper Check for Unusual or Exceptional Conditions",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Initialization and Cleanup Errors",
+                "children":[
+                   {
+                      "name":"Non-exit on Failed Initialization",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-416: Use After Free",
+          "children":[
+             {
+                "name":"Unclear",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Resource Management Errors",
+                "children":[
+                   {
+                      "name":"Use After Free",
+                      "size":3
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-125: Out-of-bounds Read",
+          "children":[
+             {
+                "name":"Improper Input Validation",
+                "children":[
+                   {
+                      "name":"Improper Validation of Array Index",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Restriction of Operations within the Bounds of a Memory Buffer",
+                "children":[
+                   {
+                      "name":"Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Restriction of Operations within the Bounds of a 699 227 Memory Buffer",
+                "children":[
+                   {
+                      "name":"Out-of-bounds Read",
+                      "size":2
+                   }
+                ]
+             },
+             {
+                "name":"Excessive Iteration",
+                "children":[
+                   {
+                      "name":"Loop with Unreachable Exit Condition ('Infinite Loop')",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-388: Error Handling",
+          "children":[
+             {
+                "name":"Unclear",
+                "children":[
+                   {
+                      "name":"Unclear",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-275: Permission Issues",
+          "children":[
+             {
+                "name":"Permissions, Privileges, and Access Control",
+                "children":[
+                   {
+                      "name":"Permission Issues",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-476: NULL Pointer Dereference",
+          "children":[
+             {
+                "name":"Pointer Issues",
+                "children":[
+                   {
+                      "name":"NULL Pointer Dereference",
+                      "size":3
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-362: Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')",
+          "children":[
+             {
+                "name":"Insufficient Control Flow Management",
+                "children":[
+                   {
+                      "name":"Race Condition",
+                      "size":3
+                   }
+                ]
+             },
+             {
+                "name":"Time and State",
+                "children":[
+                   {
+                      "name":"Race Condition",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Resource Management Errors",
+                "children":[
+                   {
+                      "name":"Use After Free",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Business logic errors",
+                "children":[
+                   {
+                      "name":"Incorrect Behavior Order",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
+                "children":[
+                   {
+                      "name":"Relative Path Traversal",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-16: Configuration",
+          "children":[
+             {
+                "name":"Permissions, Privileges, and Access Controls",
+                "children":[
+                   {
+                      "name":"Privilege / Sandbox Issues",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-287: Improper Authentication",
+          "children":[
+             {
+                "name":"Improper Input Validation",
+                "children":[
+                   {
+                      "name":"Improper Input Validation",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-94: Improper Control of Generation of Code ('Code Injection')",
+          "children":[
+             {
+                "name":"Permissions, Privileges, and Access Controls",
+                "children":[
+                   {
+                      "name":"Permission Issues",
+                      "size":1
+                   }
+                ]
+             },
+             {
+                "name":"Code Injection",
+                "children":[
+                   {
+                      "name":"Code Injection",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+          "children":[
+             {
+                "name":"SQL Injection",
+                "children":[
+                   {
+                      "name":"SQL Injection",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection')",
+          "children":[
+             {
+                "name":"Injection Flaws",
+                "children":[
+                   {
+                      "name":"Command Injection",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"CWE-255: Credentials Management",
+          "children":[
+             {
+                "name":"Improper Authorization",
+                "children":[
+                   {
+                      "name":"Missing Authorization",
+                      "size":1
+                   }
+                ]
+             }
+          ]
+       }
+    ]
+ }
