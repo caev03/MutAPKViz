@@ -1,5 +1,5 @@
-var width = 400,
-    height = 400,
+var width = window.innerWidth-200,
+    height = window.innerHeight-400,
     radius = Math.min(width, height) / 2;
 
 		var x = d3.scale.linear()
@@ -14,7 +14,7 @@ var svg = d3.select("#mySVG")
     .attr("width", width)
     .attr("height", function(){return height+10})
   .append("g")
-    .attr("transform", "translate(" + width / 2 + "," + ((height / 2)+5) + ")");
+    .attr("transform", "translate(" + width / 4.5 + "," + ((height / 2)+5) + ")");
 
 var partition = d3.layout.partition()
     .sort(null)
