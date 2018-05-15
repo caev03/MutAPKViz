@@ -1,6 +1,6 @@
 var width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)-125,
     height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)-250,
-    radius = Math.min(width, height) / 2;
+    radius = (Math.min(width, height) / 3)*2;
 
 		var x = d3.scale.linear()
     .range([0, 2 * Math.PI]);
