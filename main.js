@@ -1,5 +1,5 @@
-var width = 450,
-    height = 450,
+var width = 400,
+    height = 400,
     radius = Math.min(width, height) / 2;
 
 		var x = d3.scale.linear()
@@ -60,46 +60,30 @@ d3.json("data.json", function(error, root) {
       .attrTween("d", arcTweenZoom(d));
   }
   function deshover(){
-  	$("#cwe").html("");
-      $("#high").html("");
-      $("#low").html("");
-      $("#cweAmount").html("");
-      $("#highAmount").html("");
-      $("#lowAmount").html("");
+  	$("#ir").html("");
+      $("#set").html("");
+      $("#irAmount").html("");
+      $("#setAmount").html("");
   }
 
   function hover(d) {
     if(d.parent===undefined){
-      $("#cwe").html("");
-      $("#high").html("");
-      $("#low").html("");
-      $("#cweAmount").html("");
-      $("#highAmount").html("");
-      $("#lowAmount").html("");
+      $("#ir").html("");
+      $("#set").html("");
+      $("#irAmount").html("");
+      $("#setAmount").html("");
     }
     else if(d.parent !== undefined && d.parent.parent === undefined){
-      $("#cwe").html(d.name);
-      $("#high").html("");
-      $("#low").html("");
-      $("#cweAmount").html(function(){return d.value+"/"+d.parent.value+" - "+((d.value*100)/d.parent.value).toString().substring(0,4)+"%"});
-      $("#highAmount").html("");
-      $("#lowAmount").html("");
+      $("#ir").html(d.name);
+      $("#set").html("");
+      $("#irAmount").html(function(){return d.value+"/"+d.parent.value+" - "+((d.value*100)/d.parent.value).toString().substring(0,4)+"%"});
+      $("#setAmount").html("");
     }
-    else if(d.parent.parent !== undefined && d.parent.parent.parent === undefined){
-      $("#cwe").html(d.parent.name);
-      $("#high").html(d.name);
-      $("#low").html("");
-      $("#cweAmount").html(function(){return d.parent.value+"/"+d.parent.parent.value+" - "+((d.parent.value*100)/d.parent.parent.value).toString().substring(0,4)+"%"});
-      $("#highAmount").html(function(){return d.value+"/"+d.parent.parent.value+" - "+((d.value*100)/d.parent.parent.value).toString().substring(0,4)+"%"});
-      $("#lowAmount").html("");
-    }
-    else{
-      $("#cwe").html(d.parent.parent.name);
-      $("#high").html(d.parent.name);
-      $("#low").html(d.name);
-      $("#cweAmount").html(function(){return d.parent.parent.value+"/"+d.parent.parent.parent.value+" - "+((d.parent.parent.value*100)/d.parent.parent.parent.value).toString().substring(0,4)+"%"});
-      $("#highAmount").html(function(){return d.parent.value+"/"+d.parent.parent.parent.value+" - "+((d.parent.value*100)/d.parent.parent.parent.value).toString().substring(0,4)+"%"});
-      $("#lowAmount").html(function(){return d.value+"/"+d.parent.parent.parent.value+" - "+((d.value*100)/d.parent.parent.parent.value).toString().substring(0,4)+"%"});
+    else {
+      $("#ir").html(d.parent.name);
+      $("#set").html(d.name);
+      $("#irAmount").html(function(){return d.parent.value+"/"+d.parent.parent.value+" - "+((d.parent.value*100)/d.parent.parent.value).toString().substring(0,4)+"%"});
+      $("#setAmount").html(function(){return d.value+"/"+d.parent.parent.value+" - "+((d.value*100)/d.parent.parent.value).toString().substring(0,4)+"%"});
     }
   }
 });
